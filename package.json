@@ -1,5 +1,5 @@
 {
-  "name": "playground-elements",
+  "name": "@semantic-org/playground-elements",
   "version": "0.18.1",
   "description": "Serverless coding environments for the web",
   "homepage": "https://github.com/google/playground-elements#readme",
@@ -10,7 +10,6 @@
   "module": "playground-ide.js",
   "main": "playground-ide.js",
   "scripts": {
-    "prepare": "if [ -f './web-test-runner.config.js' ]; then cd node_modules/puppeteer && PUPPETEER_PRODUCT=firefox node install.js; fi",
     "prepack": "wireit",
     "update-version-module": "wireit",
     "nuke": "npm run clean && rm -rf node_modules && npm install",
@@ -278,8 +277,6 @@
     "@typescript-eslint/parser": "^5.42.1",
     "@web/dev-server": "^0.1.4",
     "@web/test-runner": "^0.15.0",
-    "@web/test-runner-playwright": "^0.9.0",
-    "@web/test-runner-puppeteer": "^0.11.0",
     "clean-css": "^5.1.2",
     "codemirror": "^5.65.9",
     "codemirror-grammar-mode": "^0.1.10",
