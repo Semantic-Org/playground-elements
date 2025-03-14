@@ -208,7 +208,7 @@ export class PlaygroundIde extends LitElement {
    * "/node_modules/playground-elements/").
    */
   @property({attribute: 'sandbox-base-url'})
-  sandboxBaseUrl = `https://unpkg.com/playground-elements@${npmVersion}/`;
+  sandboxBaseUrl = `https://cdn.jsdelivr.net/npm/playground-elements@${npmVersion}/`;
 
   /**
    * The service worker scope to register on
